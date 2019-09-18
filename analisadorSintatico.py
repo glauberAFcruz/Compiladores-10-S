@@ -162,7 +162,7 @@ def testaAnalisadorSintatico(tokens, teste):
     for indice, (esquerda, direita) in linhasEmPares:
       print(objeto.format(indice, esquerda, direita))
     # Termina a execucao
-    print "\n): falha :("
+    print ("\n): falha :(")
     quit()
 
 # Tokens que passados para a funcao analisadorSintatico
